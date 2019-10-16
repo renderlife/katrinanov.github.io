@@ -1,0 +1,43 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/slick';
+@import 'libs/slick-theme';
+@import 'libs/animate';
+
+@import 'base/variables';
+@import 'base/animations';
+
+* {
+    font-family: 'Roboto', sans-serif;    
+}
+
+.container {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/navbar';
+@import 'blocks/promo';
+@import 'blocks/advantages';
+@import 'blocks/titles';
+@import 'blocks/pluses';
+@import 'blocks/lines';
+@import 'blocks/agents';
+@import 'blocks/delivary';
+@import 'blocks/forms';
+@import 'blocks/consultation';
+@import 'blocks/schema';
+@import 'blocks/feedbacks';
+@import 'blocks/questions';
+@import 'blocks/contacts';
+@import 'blocks/footer';
+@import 'blocks/pageup';
+
